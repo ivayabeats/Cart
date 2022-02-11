@@ -1,0 +1,91 @@
+
+p,li,h1 {
+  color: darkgreen;
+}
+html {
+  background-color: #FFFF;
+  font-size: 10px;
+  font-family: 'Rowdies', cursive;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+body {
+  margin: 0 auto;
+  background-color: #FFFF;
+  width: 1500px;
+
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+a {text-decoration: none; }
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background:#FA892D ;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #FFFF;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Rowdies', cursive;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color:#FFFF;}
+table {
+  font-size: 20px;
+  font-family:  "Open Sans", sans-serife;
+  font-weight: normal;}
+td {
+  border-bottom: 1px solid black;
+}
+tr{  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0; bottom: 0;
+  background: #F214;
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+  font-family:  "Open Sans", sans-serife;}
